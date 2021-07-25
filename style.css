@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.products{
+  background: #e2e4ff;
+  margin: auto;
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+
+padding: 3px;
+margin: 5px;
+  border: 1px solid black;
+}
+
+img{
+  width: 285px;
+  height: 285px;
+}
+
+.buy{
+
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  transition: 0.3s;
+
+}
+.buy:hover{
+  text-decoration: underline;
+
+}
+
+a{
+  text-decoration: none;
+
+}
+
+span{
+text-decoration: line-through;
+text-decoration-color: red;
+}
+
+.soldout{
+  color: red;
+}
